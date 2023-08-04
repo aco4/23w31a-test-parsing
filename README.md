@@ -42,7 +42,10 @@ scoreboard players set \
 
 scoreboard players set \
   @a ammo 100
-  
+
+scoreboard players set \
+#max ammo 100
+
 scoreboard players set \
   #count zombies_killed 0
 
@@ -61,14 +64,14 @@ say And \ remember \ to \ get \ healed \ up\!
 ```
 Output:
 ```
-Executed 8 command(s) from function 'foo:test'
+Executed 9 command(s) from function 'foo:test'
 [Crayola_God] The game has been reset!
 [Crayola_God] Please proceed to the lobby
 [Crayola_God] The next round starts in 3 minutes!
 [Crayola_God] Everyone celebrate! \(^o^)/
 [Crayola_God] And \ remember \ to \ get \ healed \ up\!
 ```
-All 3 scores were successfully set.
+All 4 scores were successfully set.
 
 # Macros
 Input:
