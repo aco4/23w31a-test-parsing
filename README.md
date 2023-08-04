@@ -61,7 +61,7 @@ say And \ remember \ to \ get \ healed \ up\!
 ```
 Output:
 ```
-Executed 7 command(s) from function 'foo:test'
+Executed 8 command(s) from function 'foo:test'
 [Crayola_God] The game has been reset!
 [Crayola_God] Please proceed to the lobby
 [Crayola_God] The next round starts in 3 minutes!
